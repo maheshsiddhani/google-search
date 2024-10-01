@@ -1,0 +1,24 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+.img {
+  width: 10px;
+}
+p {
+  font-family: roboto;
+  font-size: 10px;
+}
+.suggestion-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #64748b;
+}
+.arrow-button {
+  border: none;
+  background-color: white;
+}

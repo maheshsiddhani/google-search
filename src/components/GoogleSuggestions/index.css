@@ -1,0 +1,54 @@
+/* Write your CSS here */
+body {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  width: 300px;
+}
+.input-img {
+  display: flex;
+  align-items: center;
+}
+.input-container {
+  margin-top: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 5px;
+  width: 400px; /* Set a fixed width for the container (adjust as needed) */
+  max-width: 100%;
+}
+.search-img {
+  width: 15px;
+}
+input {
+  margin-left: 5px;
+  padding-bottom: 5px;
+  border: none;
+  font-size: 10px;
+  color: #bfbfbf;
+  margin-top: 2px;
+  width: 100%;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+li {
+  margin-left: 0;
+  padding-left: 0;
+}
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 10px;
+}
